@@ -9,7 +9,7 @@
     "dev": "node --watch src/index.js"
   },
   "keywords": [],
-  "author": "MariioWiz",
+  "author": "Jlezama",
   "license": "ISC",
   "devDependencies": {
     "morgan": "^1.10.0"
