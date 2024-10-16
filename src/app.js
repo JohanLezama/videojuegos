@@ -13,6 +13,9 @@ app.use(cors())
 app.use(morgan('dev'))
 app.use(express.json())
 app.use(express.static('public'))
+app.get('/', (req, res) => {
+  res.send('Welcome to the Video Games API');
+    });
 app.use(rutasJuegos)
 app.use(rutasAuth)
 
